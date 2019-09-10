@@ -1,0 +1,21 @@
+{
+    "name": "xiaorui/myproject",
+    "description": "肖瑞的composer依赖",
+    "authors": [
+        {
+            "name": "Xiao Rui",
+            "email": "1091465494@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "riverslei/payment": "^4.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Project\\ProjectClass\\": "src/Project/ProjectClass",
+            "Wap\\": "src/Wap"
+        }
+    }
+}
